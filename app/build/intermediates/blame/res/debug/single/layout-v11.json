@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Users\\11788\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\11788\\.android\\build-cache\\73ffc2a5f93338a8aebf31826de3d0da1df96c04\\output\\res\\layout-v11\\notification_media_action.xml"
+    }
+]

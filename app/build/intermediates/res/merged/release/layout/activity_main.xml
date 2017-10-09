@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.you.myapplication.MainActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20"
+        app:layout_constraintGuide_begin="82dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textSize="35sp"
+        android:gravity="bottom|right"
+        app:layout_constraintBottom_toTopOf="@+id/ResultTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ResultTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="40sp"
+        android:gravity="bottom|right"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/linearLayout6"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="-1dp"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickClear"
+            android:text="c"
+            android:textSize="@dimen/TextSize"/>
+        <!--
+        android:textSize="@android:dimen/app_icon_size"
+        -->
+
+
+        <Button
+            android:id="@+id/btn_seven"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickSeven"
+            android:text="7"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize" />
+
+        <Button
+            android:id="@+id/btn_four"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickFour"
+            android:text="4"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize" />
+
+        <Button
+            android:id="@+id/btn_one"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickOne"
+            android:text="1"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize" />
+
+        <Button
+            android:id="@+id/btn_percent"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickPercent"
+            android:text="%"
+            android:textSize="@dimen/TextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout4"
+        app:layout_constraintRight_toLeftOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/btn_multiply"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickMultiply"
+            android:text="×"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_eight"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickEight"
+            android:shadowColor="@color/colorPrimary"
+            android:text="8"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_five"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickFive"
+            android:text="5"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_two"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickTwo"
+            android:text="2"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_zero"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickZero"
+            android:text="0"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/linearLayout5"
+        app:layout_constraintRight_toLeftOf="@+id/linearLayout7"
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout6"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout6"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout6">
+
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickDivide"
+            android:text="÷"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_nine"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickNine"
+            android:text="9"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <Button
+            android:id="@+id/btn_six"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickSix"
+            android:text="6"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <Button
+            android:id="@+id/btn_three"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickThree"
+            android:text="3"
+            android:textColor="@color/colorNumberText"
+            android:textSize="@dimen/TextSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="328dp" />
+
+        <Button
+            android:id="@+id/btn_point"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorNumberBtnBackground"
+            android:onClick="ClickPoint"
+            android:text="."
+            android:textSize="@dimen/TextSize"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickBack"
+            android:text="←"
+            android:textSize="@dimen/TextSize"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickPlus"
+            android:text="+"
+            android:textSize="@dimen/TextSize"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="345dp" />
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickMinus"
+            android:text="-"
+            android:textSize="@dimen/TextSize"/>
+
+        <Button
+            android:id="@+id/btn_equal"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/colorOperatorBtnBackground"
+            android:onClick="ClickEqual"
+            android:text="="
+            android:textSize="@dimen/TextSize"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Yous Calculator</string>
+    <dimen name="TextSize">30sp</dimen>
+</resources>

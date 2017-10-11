@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="24"
+    abi="x86"
+    api-level="26"
     build-mode="FULL"
-    density="xxhdpi"
+    density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507478337614"
+    timestamp="1507737625392"
     token="4199251468386085984"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3182" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="720" />
     <task
         name="verifier"
-        duration="0" />
+        duration="99" />
 
+    <artifact
+        location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -34,9 +37,6 @@
         type="SPLIT" />
     <artifact
         location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -62,8 +62,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1507478337614"
+        timestamp="1507737625392"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -75,9 +78,6 @@
             type="SPLIT" />
         <artifact
             location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="D:\Users\11788\AndroidStudioProjects\MyApplication\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
